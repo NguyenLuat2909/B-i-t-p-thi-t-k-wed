@@ -1,0 +1,7 @@
+ Sử dụng Developer tools của trình duyệt web và lệnh window.devicePixelRatio của JavaScript, cho biết giá trị device-pixel-ratios của một số thiết bị: laptop, iPhone 12 Pro, iPad Air, Samsung Galaxy?
+  - wed Youtube:
+  +lap top : 2.0000000298023224
+  +iphone 12pro: 3.0000001192092896
+  +ipap air: 2.0000000298023224
+  +samsung galaxy: undefined
+

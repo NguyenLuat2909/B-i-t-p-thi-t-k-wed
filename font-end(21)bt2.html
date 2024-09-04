@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Blackstone Bistro | Pizza-on Demand</h1>
+    <fieldset>
+    <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour</p>
+    <form action="http://www.blackgoosebistro.com/pizza.php" method="POST">
+        <fieldset>
+   <legend> <p>Your Information </p></legend>
+    <ul>
+        <li>Name: <input type="text"> </li><br>
+        <li>Address: <input type="text"></li><br>
+        <li>Telephone Number: <input type="tel"></li><br>
+        <li>Email: <input type="text"></li><br>
+        <li>Delivery instruction: <input type="text"></li><br>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend><h2>Design Your Dream Pizza:</h2></legend>
+    <textarea name="instruction" id="" cols="60" rows="4"
+    maxlength="400" placeholder="No more than 400 characters long"></textarea>
+</fieldset>
+<fieldset>
+    <legend><p>Pizza specs</p></legend>
+    <p>Crust <em>(Choose one )</em></p>
+    <ul>
+        <input type="radio"name="crust"value="While">Classic whilebr <br>
+        <input type="radio" name="crust" value="Multigrain">Multigrain <br>
+        <input type="radio" name="crust" value="Cheese-stuffed">Cheese-stuffed crust <br>
+        <input type="radio"name="crust"value="Gluten-free">Gluten-free <br>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend><p>Topping <em>(Chosse as many as you want)</em></p></legend>
+    <ul>
+       <input type="checkbox" name="Topping"> Red sauce <br>
+        <input type="checkbox" name="Topping"> While sauce <br>
+        <input type="checkbox" name="Topping"> Mozzarella Chesse <br>
+        <input type="checkbox" name="Topping" id=""> Pepperoni <br>
+        <input type="checkbox" name="Topping"> Mushrooms <br>
+         <input type="checkbox"name="Topping">Peppers <br>
+        <input type="checkbox" name="Topping" id=""> Anchovies <br>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend><p>Number:</p></legend>
+    <p>How many pizza:
+        <select name="pizzas" size="1">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+        </select>
+    </p>
+    </fieldset>
+</fieldset>
+    <p><input type="submit" value="Bring me a pizza">
+    <input type="reset"></p>
+</form>
+</body>
+</html>
